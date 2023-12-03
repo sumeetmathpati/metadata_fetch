@@ -28,13 +28,13 @@ main() async {
   // Use the `MetadataFetch.extract()` function to fetch data from the url
   var data = await MetadataFetch.extract(myURL); 
 
-  print(data.title) // Flutter - Beautiful native apps in record time
+  print(data.title); // Flutter - Beautiful native apps in record time
 
-  print(data.description) // Flutter is Google's UI toolkit for crafting beautiful...
+  print(data.description); // Flutter is Google's UI toolkit for crafting beautiful...
 
-  print(data.image) // https://flutter.dev/images/flutter-logo-sharing.png
+  print(data.image); // https://flutter.dev/images/flutter-logo-sharing.png
 
-  print(data.url) // https://flutter.dev/
+  print(data.url); // https://flutter.dev/
 
   var dataAsMap = data.toMap();
 
